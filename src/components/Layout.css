@@ -1,0 +1,25 @@
+.custom{
+    min-height: 42em;
+    
+    background-size: contain   ;
+    background-image: url(https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80)
+}
+.custom1{
+    min-height: 40em;
+    opacity: 0.9;
+}
+.gap{
+    gap:1em;
+    justify-content: space-evenly ;
+}
+.card-row:hover  .card{
+    opacity: 0.1;
+    filter: blur(6px);
+}
+.card-row .card:hover{
+    opacity: 1; 
+    filter: blur(0);
+}
+.card:hover{
+    backdrop-filter: blur(20px);
+}
