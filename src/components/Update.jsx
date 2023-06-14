@@ -9,7 +9,7 @@ function Update(props) {
         setValue('Word',props.ele.Word)
         setValue('Meaning',props.ele.Meaning)
         setValue('image',props.ele.image)
-    },[])
+    },[props.ele.Word,props.ele.Meaning,props.ele.image,setValue])
     let {updatecards} = useContext(Cardcontext)
   return (
     <Modal
