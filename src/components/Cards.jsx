@@ -17,7 +17,7 @@ function Cards(props) {
     return (
         <div className='card col-3  mt-3 rounded' onClick={isHovering} onMouseLeave={notHovering}>
             <div className="card-head text-center">
-                <img src={props.ele.image} alt={alt} className='position-relative img-fluid rounded' style={{top:'-1em'}}  />
+                <img src={props.ele.image} alt={alt} className='position-relative w-50 rounded ' style={{top:'-1em'}}  />
             </div>
             <div className="card-body ">
                 <p className='fs-5 text-center'>
