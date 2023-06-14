@@ -11,7 +11,7 @@ function Layout() {
         axios.get('http://localhost:3500/user')
         .then((res)=>{addcards(res.data)})
         .catch((err)=>console.error(err))
-    },[])
+    },[addcards])
 
     let [show,setShow] = useState(false)
     let open = ()=>setShow(true)
